@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tariro Phiri | Full Stack Developer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tariro Phiri - Full Stack Developer specializing in PHP, React, MySQL and Android Development.">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/yourkit.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<header id="home">
+    <nav>
+        <h2 class="logo">Tariro<span>Dev</span></h2>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="hero">
+        <img src="assets/images/profile.jpg" class="profile-img" alt="Tariro Phiri" onerror="this.src='https://via.placeholder.com/150'">
+        <h1>Tariro Phiri</h1>
+        <h3>Full Stack Developer | React | PHP | Android</h3>
+        <p>Building secure, scalable and modern applications that solve real-world problems.</p>
+
+        <div class="hero-buttons">
+            <a href="assets/cv/cv.pdf" download class="btn">Download CV</a>
+            <a href="#contact" class="btn btn-outline">Hire Me</a>
+        </div>
+
+        <div class="socials">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </div>
+</header>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        I am a passionate Full Stack Developer based in Durban, South Africa.
+        I specialize in developing secure web applications using PHP, MySQL,
+        React, and Android technologies. I am eager to contribute to innovative
+        companies and continuously improve my technical expertise.
+    </p>
+</section>
+
+<section id="skills">
+    <h2>Technical Skills</h2>
+
+    <div class="skill">
+        <p>HTML & CSS</p>
+        <div class="skill-bar"><div class="skill-level" style="width:95%"></div></div>
+    </div>
+
+    <div class="skill">
+        <p>JavaScript</p>
+        <div class="skill-bar"><div class="skill-level" style="width:85%"></div></div>
+    </div>
+
+    <div class="skill">
+        <p>React</p>
+        <div class="skill-bar"><div class="skill-level" style="width:80%"></div></div>
+    </div>
+
+    <div class="skill">
+        <p>PHP & MySQL</p>
+        <div class="skill-bar"><div class="skill-level" style="width:90%"></div></div>
+    </div>
+
+    <div class="skill">
+        <p>Android Development</p>
+        <div class="skill-bar"><div class="skill-level" style="width:75%"></div></div>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Featured Projects</h2>
+
+    <div class="project-grid">
+
+        <div class="card">
+            <h3>Online Task Management System</h3>
+            <p>Role-based task management web system with authentication and CRUD functionality.</p>
+            <span>Tech: React, PHP, MySQL</span>
+        </div>
+
+        <div class="card">
+            <h3>MusicBox Android App</h3>
+            <p>Music streaming Android application with interactive UI.</p>
+            <span>Tech: Java, Android Studio</span>
+        </div>
+
+        <div class="card">
+            <h3>TipMaster App</h3>
+            <p>Smart tip calculator application with clean UX design.</p>
+            <span>Tech: Android, Java</span>
+        </div>
+
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: tarirophiri385@gmail.com</p>
+
+    <form action="process.php" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+    </form>
+</section>
+
+<footer>
+    <p>© Tariro Phiri | Durban, South Africa</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

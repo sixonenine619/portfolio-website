@@ -1,0 +1,123 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI', sans-serif;
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#0f172a;
+    color:white;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    padding:20px 10%;
+    position:fixed;
+    width:100%;
+    background:rgba(0,0,0,0.6);
+    backdrop-filter:blur(10px);
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+}
+
+nav ul li{
+    margin-left:20px;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+}
+
+.logo span{
+    color:#38bdf8;
+}
+
+.hero{
+    text-align:center;
+    padding-top:150px;
+    padding-bottom:100px;
+}
+
+.profile-img {
+    width: 150px;       /* sets a nice fixed width */
+    height: 150px;      /* makes it a perfect square */
+    border-radius: 50%; /* makes it circular */
+    margin-bottom: 20px;
+    border: 3px solid #38bdf8;
+    object-fit: cover;  /* ensures the image covers the circle without stretching */
+}
+
+.btn{
+    background:#38bdf8;
+    padding:10px 20px;
+    text-decoration:none;
+    color:black;
+    border-radius:30px;
+    margin:10px;
+    display:inline-block;
+    font-weight:bold;
+}
+
+.btn-outline{
+    background:transparent;
+    border:2px solid #38bdf8;
+    color:white;
+}
+
+section{
+    padding:80px 10%;
+}
+
+.skill-bar{
+    background:#1e293b;
+    border-radius:20px;
+    overflow:hidden;
+}
+
+.skill-level{
+    background:#38bdf8;
+    height:10px;
+}
+
+.project-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:#1e293b;
+    padding:20px;
+    border-radius:15px;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+}
+
+input, textarea{
+    margin-bottom:15px;
+    padding:10px;
+    border:none;
+    border-radius:5px;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#0f172a;
+}
